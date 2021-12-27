@@ -1,0 +1,13 @@
+.content{
+    background-color: #595959;
+    width: 800px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    width: 560px;
+    height: 335px;
+    margin: 0 20px;
+}
