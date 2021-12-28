@@ -17,7 +17,7 @@ const MyProfileRight = () => {
         }else{
         e.preventDefault()
         setPosts([...posts, {...post, id: Date.now()}])
-        setPost({author: 'Adil', content: ''})
+        setPost({content: ''})
         }
     }
 

@@ -3,13 +3,16 @@ import PostFeedback from './PostFeedback/PostFeedback';
 import PostContent from './PostContent/PostContent';
 import PostInfo from './PostInfo/PostInfo';
 import classes from './Post.module.css';
+import PostComments from './PostComments/PostComments';
 
-const Post = (props) => {
+const Post = ({post, removePost}) => {
+
     return (
             <div className={classes.post}>
-                <PostInfo post={props.post} remove={props.removePost}/>
-                <PostContent post={props.post}/>
+                <PostInfo post={post} remove={removePost}/>
+                <PostContent post={post}/>
                 <PostFeedback/>
+                <PostComments/>
             </div>
         
     );

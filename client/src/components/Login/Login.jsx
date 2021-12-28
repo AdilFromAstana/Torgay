@@ -6,7 +6,6 @@ import classes from './Login.module.css'
 const Login = () => {
 
     const dispatch = useDispatch();
-
     const isTrue = () => {
         dispatch({type: 'true'})
     }

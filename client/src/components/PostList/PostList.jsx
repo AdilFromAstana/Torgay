@@ -12,7 +12,7 @@ const PostList = ({posts, removePost}) => {
             <div>
                 {
                     posts.map(post=>
-                        <Post post={post} removePost={removePost} key={post.content.toString()}></Post>
+                        <Post post={post} removePost={removePost}></Post>
                     )
                 } 
             </div>

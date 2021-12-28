@@ -11,8 +11,8 @@ const DropMenu = ({active}) => {
         dispatch({type: 'false'})
     }
 
-    const login = (event) => {
-        event.preventDefault();
+    const login = (e) => {
+        e.preventDefault();
         isFalse()
     }
 

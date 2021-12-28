@@ -6,7 +6,7 @@ import classes from './Main.module.css'
 const Main = () => {
 
     const [posts, setPosts] = useState([]);
-    const [post, setPost] = useState({author: 'Adil', content: ''});
+    const [post, setPost] = useState({content: ''});
 
     const addNewPost =(e)=> {
         if (post.content === ''){
@@ -14,7 +14,7 @@ const Main = () => {
         }else{
         e.preventDefault()
         setPosts([...posts, {...post, id: Date.now()}])
-        setPost({author: 'Adil', content: ''})
+        setPost({ content: ''})
         }
     }
 
