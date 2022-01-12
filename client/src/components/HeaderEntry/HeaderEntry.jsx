@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import classes from './HeaderEntry.module.css'
+import classes from './HeaderEntry.module.css';
+import logo from './../../icons/logo.png';
 
 const HeaderEntry = () => {
 
@@ -8,7 +9,7 @@ const HeaderEntry = () => {
         <div className={classes.content}>
             <div className={classes.header}>
                 <Link to='/login'className={classes.logo}>
-                    <img className={classes.imgLogo} src="https://cdn-icons-png.flaticon.com/512/789/789530.png" alt="" />
+                    <img className={classes.imgLogo} src={logo} alt="" />
                     <span className={classes.logoText}>торғай</span>
                 </Link>
             </div>

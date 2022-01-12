@@ -1,0 +1,51 @@
+.form{
+    padding: 25px;
+    height: 190px;
+    width: 320px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.login{
+    width: 320px;
+}
+.input{
+    outline: none;
+    padding: 5px 10px;
+    width: 270px;
+    height: 35px;
+}
+.button{
+    height: 35px;
+    width: 100px;
+}
+.loginTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.registration{
+    font-size: 24px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registrationLink{
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 36px;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    transition: 1s;
+}
+.registrationLink:hover{
+    transition: 1s;
+    background-color: silver;
+}

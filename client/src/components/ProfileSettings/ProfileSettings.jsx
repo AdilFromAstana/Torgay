@@ -19,8 +19,11 @@ const editInfo = (userInfo) => {
         <div className={classes.content}>
             <h1 className={classes.h1}>Личные данные</h1>
             <div className={classes.profile}>
-                <div>{userInfo.name}</div>
-                <div>{userInfo.surname}</div>
+                <img src={userInfo.photo} alt="" className={classes.profilePhoto}/>
+                <div className={classes.profileText}>
+                    <div>{userInfo.name}</div>
+                    <div>{userInfo.surname}</div>
+                </div>
             </div>
             <form>
                 <input 

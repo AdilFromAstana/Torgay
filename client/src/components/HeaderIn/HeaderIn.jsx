@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import DropMenu from '../DropMenu/DropMenu';
+import DropMenu from './DropMenu/DropMenu';
 import classes from './HeaderIn.module.css';
 import logo from './../../icons/logo.png';
 import arrow from './../../icons/arrow.png';

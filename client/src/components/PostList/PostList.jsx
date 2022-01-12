@@ -1,6 +1,6 @@
 import React from 'react';
-import EmptyPostList from '../EmptyPostList/EmptyPostList';
-import Post from '../Post/Post';
+import EmptyPostList from './EmptyPostList/EmptyPostList';
+import Post from './Post/Post';
 
 const PostList = ({posts, removePost}) => {
     if (posts.length == 0){
